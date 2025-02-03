@@ -1,5 +1,5 @@
 ## 💻 Preview
-https://github.com/Zerabalus/zerabalus.github.io/elementos/
+https://github.com/Zerabalus/zerabalus.github.io/blob/main/elementos/startpage-2025-version-1.mp4
 
 My custom homepage inspired by Xiao from Genshin Impact, modified a lot and made some tweaks myself because I like transparency too much lol.
 
