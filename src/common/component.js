@@ -3,10 +3,12 @@ const RenderedComponents = {};
 class Component extends HTMLElement {
   refs = {};
 
+  /* Cambiar la fuente */
+
   resources = {
     fonts: {
-      roboto: '<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">',
-      nunito: '<link href="https://fonts.googleapis.com/css?family=Nunito:200" rel="stylesheet">',
+      K2D: '<link href="https://fonts.googleapis.com/css?family=K2D:100,400,700" rel="stylesheet">',
+      Oxanium: '<link href="https://fonts.googleapis.com/css?family=Oxanium:200" rel="stylesheet">',
       raleway: '<link href="https://fonts.googleapis.com/css?family=Raleway:600" rel="stylesheet">'
     },
     icons: {

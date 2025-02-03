@@ -24,7 +24,7 @@ class Statusbar extends Component {
 
   imports() {
     return [
-      this.resources.fonts.roboto,
+      this.resources.fonts.K2D,
       this.resources.icons.material,
       this.resources.libs.awoo,
     ];
@@ -91,7 +91,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li[active]:not(:last-child) {
-          color: #d4be98;
+          color:rgb(255, 255, 255);
           font-size: 13px;
           padding: 6px 0;
       }
@@ -133,7 +133,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li[active]:nth-child(8) ~ li:last-child {
-          --flavour: #e78a4e;
+          --flavour:rgb(125, 190, 233);
       }
 
       #tabs ul li[active]:nth-child(9) ~ li:last-child {

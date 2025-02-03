@@ -46,7 +46,7 @@ class Search extends Component {
           box-shadow: inset 0 -2px #737373;
           padding: .5em 0;
           background: none;
-          font: 500 22px 'Roboto', sans-serif;
+          font: 500 22px 'K2D', sans-serif;
           letter-spacing: 1px;
           color: #d4be98;
       }
@@ -89,7 +89,7 @@ class Search extends Component {
           cursor: default;
           transition: all .2s;
           font-size: 12px;
-          font-family: 'Roboto', sans-serif;
+          font-family: 'K2D', sans-serif;
       }
 
       .search-engines li {
@@ -105,7 +105,7 @@ class Search extends Component {
 
   imports() {
     return [
-      this.resources.fonts.roboto,
+      this.resources.fonts.K2D,
       this.resources.icons.material
     ];
   }

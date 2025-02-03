@@ -71,7 +71,7 @@ const default_config = {
           name: "Anime",
           links: [
             {
-              name: "AnimeFlv",
+              name: "AnimeFLV",
               url: "https://www.disneyplus.com/home",
               icon: "brand-bilibili",
               icon_color: "#7daea3",
@@ -80,13 +80,13 @@ const default_config = {
               name: "Anilist",
               url: "https://www.primevideo.com/region/eu/?ref_=dv_web_unknown",
               icon: "brand-funimation",
-              icon_color: "#7daea3",
+              icon_color: "#9dbe8a",
             },
             {
               name: "MyAnimeList",
               url: "https://myanimelist.net/",
               icon: "robot",
-              icon_color: "#7daea3",
+              icon_color: "#5a6ac8",
             },
           ],
         },
@@ -108,8 +108,20 @@ const default_config = {
             {
               name: "Canva",
               url: "https://www.canva.com/",
-              icon: "palette",
+              icon: "paint",
               icon_color: "#9fc5e8",
+            },
+            {
+              name: "PixAi",
+              url: "https://www.pixai.com/",
+              icon: "brand-openai",
+              icon_color: "#d3869b",
+            },
+            {
+              name: "Color Picker",
+              url: "https://imagecolorpicker.com/",
+              icon: "palette",
+              icon_color: "#daa0cc",
             }
           ],
         }
@@ -120,156 +132,141 @@ const default_config = {
       background_url: "src/img/banners/cbg-6.gif",
       categories: [
         {
-          name: "inspiration",
+          name: "Util",
           links: [
             {
-              name: "pinterest",
-              url: "https://www.pinterest.es/",
-              icon: "brand-pinterest",
-              icon_color: "#ea6962",
+              name: "Notion",
+              url: "https://www.notion.so/",
+              icon: "brand-notion",
+              icon_color: "#ecf2f6",
             },
             {
-              name: "artstation",
-              url: "https://www.artstation.com/?sort_by=community",
-              icon: "chart-area",
-              icon_color: "#7daea3",
+              name: "Compscilib",
+              url: "https://compscilib.com/",
+              icon: "brand-vscode",
+              icon_color: "#8abeb7",
             },
             {
-              name: "leonardo ai",
-              url: "https://app.leonardo.ai/",
+              name: "ChatGPT",
+              url: "https://chat.openai.com/",
               icon: "brand-openai",
-              icon_color: "#89b482",
+              icon_color: "#f0c674",
             },
             {
-              name: "dribble",
-              url: "https://dribbble.com/following",
-              icon: "brand-dribbble-filled",
-              icon_color: "#d3869b",
+              name: "Overleaf",
+              url: "https://es.overleaf.com/project",
+              icon: "leaf",
+              icon_color: "#63996b",
             },
           ],
         },
         {
-          name: "resources",
+          name: "Universidad",
           links: [
             {
-              name: "figma",
-              url: "https://www.figma.com",
-              icon: "brand-figma",
-              icon_color: "#d3869b",
+              name: "Fac. Ciencias",
+              url: "https://web.fciencias.unam.mx/;jsessionid=260DA23A51DEA1B3AC4525D1BAF4B625/",
+              icon: "device-laptop",
+              icon_color: "#8abeb7",
             },
+            
             {
-              name: "uxpro",
-              url: "https://uxpro.cc/",
-              icon: "components",
-              icon_color: "#a9b665",
+              name: "Google Classroom",
+              url: "https://classroom.google.com/u/2/h",
+              icon: "school",
+              icon_color: "#eab308",
             },
+
             {
-              name: "colorhunt",
-              url: "https://colorhunt.co/",
-              icon: "color-picker",
+              name: "Drive",
+              url: "https://drive.google.com/drive/u/0/home",
+              icon: "brand-google-drive",
+              icon_color: "#ffa348",
+            }
+
+          ],
+        },
+        {
+          name: "Materias",
+          links: [
+            {
+              name: "Matemáticas IV",
+              url: "https://tuaulavirtual.educatic.unam.mx/my/courses.php",
+              icon: "book",
               icon_color: "#ea6962",
             },
             {
-              name: "adobe color",
-              url: "https://color.adobe.com/es/create/color-wheel",
-              icon: "brand-adobe",
-              icon_color: "#7daea3",
-            },
-            {
-              name: "terminalsexy",
-              url: "https://terminal.sexy",
-              icon: "prompt",
-              icon_color: "#e78a4e",
-            },
-          ],
-        },
-        {
-          name: "resources 3d",
-          links: [
-            {
-              name: "thingiverse",
-              url: "https://www.thingiverse.com/",
-              icon: "circle-letter-t",
-              icon_color: "#7daea3",
+              name: "Datacamp",
+              url: "https://www.datacamp.com/",
+              icon: "brand-python",
+              icon_color: "#059669",
             },
           ],
         },
       ],
     },
     {
-      name: "dev",
+      name: "Code",
       background_url: "src/img/banners/cbg-7.gif",
       categories: [
         {
-          name: "repositories",
+          name: "Dev",
           links: [
             {
-              name: "github",
-              url: "https://github.com/",
+              name: "Github",
+              url: "https://github.com/Zerabalus",
               icon: "brand-github",
               icon_color: "#7daea3",
             },
             {
-              name: "gitlab",
-              url: "https://gitlab.com/",
+              name: "Gitlab",
+              url: "https://gitlab.com/epharedam",
               icon: "brand-gitlab",
               icon_color: "#e78a4e",
             },
+            {
+              name:"Huggingface",
+              url:"https://huggingface.co",
+              icon:"mood-smile",
+              icon_color:"#eab308"
+            }
           ],
         },
         {
-          name: "resources",
+          name: "Cursos",
           links: [
             {
-              name: "phind",
-              url: "https://www.phind.com/",
-              icon: "brand-openai",
-              icon_color: "#89b482",
+              name: "Microsoft",
+              url: "https://learn.microsoft.com/es-mx/training/",
+              icon: "brand-windows",
+              icon_color: "#ea6562",
             },
             {
-              name: "flutter",
-              url: "https://docs.flutter.dev/ui",
-              icon: "brand-flutter",
-              icon_color: "#7daea3",
-            },
-            {
-              name: "hacktricks",
-              url: "https://book.hacktricks.xyz/welcome/readme",
-              icon: "biohazard",
-              icon_color: "#ea6962",
-            },
-            {
-              name: "vscode",
-              url: "https://vscode.dev/",
-              icon: "brand-vscode",
-              icon_color: "#7daea3",
-            },
-          ],
-        },
-        {
-          name: "challenges",
-          links: [
-            {
-              name: "hackthebox",
-              url: "https://app.hackthebox.com",
-              icon: "box",
+              name: "CS50",
+              url: "https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home",
+              icon: "code-asterix",
               icon_color: "#a9b665",
             },
             {
-              name: "cryptohack",
-              url: "https://cryptohack.org/challenges/",
+              name: "Logica Computacional",
+              url: "https://marcovladimir.codeberg.page/logcomp.html",
+              icon: "robot",
+              icon_color: "#65a30d",
+            },
+            {
+              name: "Redes Neuronales",
+              url: "https://victormijangosdelacruz.github.io/Redes-Neuronales/",
               icon: "brain",
-              icon_color: "#e78a4e",
-            },
+              icon_color: "#0891b2",
+            }
+          ],
+        },
+        {
+          name: "Práctica",
+          links: [
             {
-              name: "tryhackme",
-              url: "https://tryhackme.com/dashboard",
-              icon: "brand-onedrive",
-              icon_color: "#ea6962",
-            },
-            {
-              name: "hackerrank",
-              url: "https://www.hackerrank.com/dashboard",
+              name: "Leetcode",
+              url: "https://leetcode.com/",
               icon: "code-asterix",
               icon_color: "#a9b665",
             },

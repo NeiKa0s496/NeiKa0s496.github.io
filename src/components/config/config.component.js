@@ -46,7 +46,7 @@ class ConfigTab extends Component {
           box-shadow: inset 0 -2px #737373;
           padding: .5em 0;
           background: none;
-          font: 300 16px 'Roboto', sans-serif;
+          font: 300 16px 'K2D', sans-serif;
           letter-spacing: 1px;
           color: #d4be98;
           resize: none;
@@ -72,13 +72,13 @@ class ConfigTab extends Component {
           background: 0;
           border: 0;
           outline: 0;
-          color: #d4be98;
+          color:rgb(255, 255, 255);
           position: absolute;
           right: 40px;
           cursor: pointer;
           top: 15px;
           font-size: 18px;
-          font-family: 'Roboto';
+          font-family: 'K2D';
       }
 
       #config .save:hover {
@@ -104,7 +104,7 @@ class ConfigTab extends Component {
 
   imports() {
     return [
-      this.resources.fonts.roboto,
+      this.resources.fonts.K2D,
       this.resources.icons.material
     ];
   }
