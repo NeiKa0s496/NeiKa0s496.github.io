@@ -80,7 +80,7 @@ class Tabs extends Component {
     return [
       this.resources.icons.material,
       this.resources.icons.tabler,
-      this.resources.fonts.roboto,
+      this.resources.fonts.K2D,
       this.resources.fonts.raleway,
       this.resources.libs.awoo,
     ];
@@ -133,7 +133,7 @@ class Tabs extends Component {
           width: 100%;
           height: 100%;
           right: 100%;
-          background: #282828 url("../img/bg-1.gif") repeat left;
+          background: #2F3132 url("../img/bg-1.gif") repeat left;
 	        transition: all .6s;
 	        # animation: scroll 25s ease-in-out infinite;
       }
@@ -145,11 +145,11 @@ class Tabs extends Component {
       }
 
       .categories ul:nth-child(2) {
-          --flavour:rgb(255, 179, 15);
+          --flavour:rgb(255, 220, 113);
       }
 
       .categories ul:nth-child(3) {
-          --flavour: #ea6962;
+          --flavour:rgb(96, 255, 242);
       }
 
       .categories ul:nth-child(4) {
@@ -196,12 +196,14 @@ class Tabs extends Component {
           right: 0;
           z-index: 1;
       }
+    
+      /* color de fondo*/
 
       .categories .links {
           right: 0;
           width: 70%;
           height: 100%;
-          background: #282828;
+          background:#2F3132;
           padding: 5%;
           flex-wrap: wrap;
       }
@@ -209,16 +211,18 @@ class Tabs extends Component {
       .categories .links li {
           list-style: none;
       }
+    
+    /* color de letra y fondo de los cuadritos*/
 
       .categories ul .links a {
-          color: #d4be98;
+          color:rgb(253, 252, 255);
           text-decoration: none;
-          font: 700 18px 'Roboto', sans-serif;
+          font: 700 18px 'K2D', sans-serif;
           transition: all .2s;
           display: inline-flex;
           align-items: center;
           padding: .4em .7em;
-          background: #32302f;
+          background:rgb(28, 124, 131);
           box-shadow: 0 4px rgba(50, 48, 47, 0.5), 0 5px 10px rgb(0 0 0 / 20%);
           border-radius: 2px;
           margin-bottom: .7em;
@@ -236,7 +240,7 @@ class Tabs extends Component {
           color: var(--flavour);
       }
 
-
+ /* cambiar el color de la caja de letras y demas */
       .categories ul::after {
           content: attr(class);
           position: absolute;
@@ -252,27 +256,29 @@ class Tabs extends Component {
           left: calc(15% - 42.5px);
           bottom: 0;
           top: 0;
-          background: linear-gradient(to top, rgb(50 48 47 / 90%), transparent);
+          background: linear-gradient(to bottom, rgb(25 72 82 / 80%), transparent);
           color: var(--flavour);
           letter-spacing: 1px;
-          font: 500 30px 'Nunito', sans-serif;
+          font: 500 30px 'Oxanium', sans-serif;
           text-align: center;
           flex-wrap: wrap;
           word-break: break-all;
           align-items: center;
-          backdrop-filter: blur(3px);
+          backdrop-filter: blur(4px);
       }
 
       
-
+      /* color de las lineas que dividen categorias*/
       .categories .links li:not(:last-child) {
-          box-shadow: 0 1px 0 rgba(212, 190, 152, .25);
+          box-shadow: 0 1px 0 rgb(229, 194, 161);
           padding: 0 0 .5em 0;
           margin-bottom: 1.5em;
       }
 
+      /* titulos de las categorias*/
+
       .categories .links li h1 {
-          color: #d4be98;
+          color:rgb(255, 214, 138);
 	        opacity: 0.5;
           font-size: 13px;
           margin-bottom: 1em;
