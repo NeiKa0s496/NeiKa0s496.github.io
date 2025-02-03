@@ -73,13 +73,13 @@ const default_config = {
           links: [
             {
               name: "AnimeFLV",
-              url: "https://www.disneyplus.com/home",
+              url: "https://www3.animeflv.net/",
               icon: "brand-bilibili",
               icon_color: "#7daea3",
             },
             {
               name: "Anilist",
-              url: "https://www.primevideo.com/region/eu/?ref_=dv_web_unknown",
+              url: "https://anilist.co/user/ZerAdam/",
               icon: "brand-funimation",
               icon_color: "#9dbe8a",
             },
