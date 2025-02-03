@@ -64,6 +64,12 @@ const default_config = {
               icon: "brand-twitch",
               icon_color: "#d3869b",
             },
+            {
+              name: "Tumblr",
+              url: "https://www.tumblr.com/",
+              icon: "brand-tumblr",
+              icon_color: "#7daea3",
+            }
             
           ],
         },
@@ -258,6 +264,12 @@ const default_config = {
               url: "https://victormijangosdelacruz.github.io/Redes-Neuronales/",
               icon: "brain",
               icon_color: "#0891b2",
+            },
+            {
+              name:"Cisco",
+              url:"https://www.netacad.com/dashboard",
+              icon:"router",
+              icon_color:"#ea6962"
             }
           ],
         },
@@ -275,52 +287,58 @@ const default_config = {
       ],
     },
     {
-      name: "myself",
+      name: "Mío",
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
-          name: "mails",
+          name: "Google",
           links: [
             {
-              name: "gmail",
+              name: "Gmail",
               url: "https://mail.google.com/mail/u/0/",
               icon: "brand-gmail",
               icon_color: "#ea6962",
             },
-          ],
-        },
-        {
-          name: "storage",
-          links: [
             {
-              name: "drive",
-              url: "https://drive.google.com/drive/u/0/my-drive",
-              icon: "brand-google-drive",
-              icon_color: "#e78a4e",
-            },
-            {
-              name: "dropbox",
-              url: "https://www.dropbox.com/h?role=personal&di=left_nav",
-              icon: "box-seam",
-              icon_color: "#7daea3",
-            },
-            {
-              name: "fotos",
-              url: "https://photos.google.com/u/1",
-              icon: "photo-filled",
+              name: "Google Books",
+              url: "https://play.google.com/books?type=ebooks&source=uploads",
+              icon: "book",
               icon_color: "#ea6962",
             },
           ],
         },
         {
-          name: "stuff",
+          name: "compras",
           links: [
             {
-              name: "linkedin",
+              name: "Amazon",
+              url: "https://www.amazon.com.mx/",
+              icon: "brand-amazon",
+              icon_color: "#ea6962",
+            },
+          ],
+        },
+        {
+          name: "Varios",
+          links: [
+            {
+              name: "Linkedin",
               url: "https://www.linkedin.com/feed/",
               icon: "brand-linkedin",
               icon_color: "#7daea3",
             },
+            {
+              name: "Discord",
+              url:"https://discord.com/channels/@me",
+              icon:"brand-discord",
+              icon_color:"#7daea3"
+            },
+            {
+              name:"Clip Studio",
+              url:"https://assets.clip-studio.com/es-es//",
+              icon:"pencil",
+              icon_color:"#ea6962"
+            }
           ],
         },
       ],

@@ -219,8 +219,8 @@ class Statusbar extends Component {
       }
        /* cambiar el tamaño del icono de la marca del cazador */
       .fastlink-icon {
-	      width: 50%;
-        filter: invert(1);
+	      width: 70%;
+        /* filter: invert(1); para la marca del cazador blanca*/
       }
       
     `;
@@ -231,7 +231,7 @@ class Statusbar extends Component {
         <div id="tabs">
             <cols>
                 <button class="+ fastlink">
-                  <img class="fastlink-icon" src="src/img/hunter.svg"/>
+                  <img class="fastlink-icon" src="src/img/xiao.svg"/>
                 </button>
                 <ul class="- indicator"></ul>
                 <div class="+ widgets col-end">
