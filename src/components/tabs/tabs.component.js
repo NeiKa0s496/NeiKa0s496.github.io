@@ -104,6 +104,7 @@ class Tabs extends Component {
       .nav {
           color: #fff;
       }
+          /*color del fondo sombra*/
 
       #panels {
           border-radius: 5px 0 0 5px;
@@ -116,7 +117,8 @@ class Tabs extends Component {
           bottom: 0;
           margin: auto;
           box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-          background: #282828;
+          background: rgb(49 49 49 / 60%);
+          backdrop-filter: blur(1px);
       }
 
       .categories {
@@ -133,7 +135,7 @@ class Tabs extends Component {
           width: 100%;
           height: 100%;
           right: 100%;
-          background: #2F3132 url("../img/bg-1.gif") repeat left;
+          background: rgb(49 49 49 / 0%) url("../img/bg-1.gif") repeat left;
 	        transition: all .6s;
 	        # animation: scroll 25s ease-in-out infinite;
       }
@@ -145,7 +147,7 @@ class Tabs extends Component {
       }
 
       .categories ul:nth-child(2) {
-          --flavour:rgb(255, 220, 113);
+          --flavour:rgb(225, 194, 68);
       }
 
       .categories ul:nth-child(3) {
@@ -153,27 +155,27 @@ class Tabs extends Component {
       }
 
       .categories ul:nth-child(4) {
-          --flavour:rgb(175, 235, 222);
+          --flavour:rgb(255, 220, 122);
       }
 
       .categories ul:nth-child(5) {
-          --flavour: #d3869b;
+          --flavour:rgb(134, 198, 211);
       }
 
       .categories ul:nth-child(6) {
-          --flavour: #d3869b;
+          --flavour:rgb(68, 156, 155);
       }
 
       .categories ul:nth-child(7) {
-          --flavour:rgb(132, 51, 51);
+          --flavour:rgb(122, 138, 255);
       }
 
       .categories ul:nth-child(8) {
-          --flavour: #e78a4e;
+          --flavour:rgb(238, 180, 141);
       }
 
       .categories ul:nth-child(9) {
-          --flavour: #ea6962;
+          --flavour:rgb(206, 226, 188);
       }
 
       .categories ul:nth-child(10) {
@@ -181,11 +183,11 @@ class Tabs extends Component {
       }
 
       .categories ul:nth-child(11) {
-          --flavour: #d3869b;
+          --flavour:rgb(134, 207, 211);
       }
 
       .categories ul:nth-child(12) {
-          --flavour: #d3869b;
+          --flavour:rgb(134, 208, 211);
       }
 
       .categories ul .links {
@@ -201,11 +203,12 @@ class Tabs extends Component {
 
       .categories .links {
           right: 0;
-          width: 70%;
+          width: 62%;
           height: 100%;
-          background:#2F3132;
+          background: rgb(49 49 49 / 0%);
           padding: 5%;
           flex-wrap: wrap;
+          backdrop-filter: blur(4px);
       }
 
       .categories .links li {
@@ -222,10 +225,11 @@ class Tabs extends Component {
           display: inline-flex;
           align-items: center;
           padding: .4em .7em;
-          background:rgb(28, 124, 131);
-          box-shadow: 0 4px rgba(50, 48, 47, 0.5), 0 5px 10px rgb(0 0 0 / 20%);
+          background:rgb(28, 124, 131, 0.5);
+          box-shadow: 0 4px rgba(41, 96, 93, 0.5), 0 5px 10px rgb(0 0 0 / 20%);
           border-radius: 2px;
           margin-bottom: .7em;
+          backdrop-filter: blur(4px);
       }
 
       .categories .link-info {
@@ -256,7 +260,7 @@ class Tabs extends Component {
           left: calc(15% - 42.5px);
           bottom: 0;
           top: 0;
-          background: linear-gradient(to bottom, rgb(25 72 82 / 80%), transparent);
+          background: linear-gradient(to bottom, rgb(49 49 49 / 80%), transparent);
           color: var(--flavour);
           letter-spacing: 1px;
           font: 500 30px 'Oxanium', sans-serif;
@@ -278,7 +282,7 @@ class Tabs extends Component {
       /* titulos de las categorias*/
 
       .categories .links li h1 {
-          color:rgb(255, 214, 138);
+          color:rgb(255, 233, 160);
 	        opacity: 0.5;
           font-size: 13px;
           margin-bottom: 1em;

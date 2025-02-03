@@ -69,7 +69,7 @@ class Statusbar extends Component {
           width: 35px;
           text-align: center;
           font: 700 13px 'Yu Gothic', serif;
-          color: rgba(212, 190, 152, 0.5);
+          color: rgb(255, 219, 158);
           padding: 6px 0;
           transition: all .1s;
           cursor: pointer;
@@ -109,15 +109,15 @@ class Statusbar extends Component {
       #tabs ul li[active]:nth-child(12) ~ li:last-child { margin: 0 0 0 385px; }
 
       #tabs ul li[active]:nth-child(2) ~ li:last-child {
-          --flavour: #e78a4e;
-      }
+          --flavour:rgb(255, 210, 126);
+      }  
 
       #tabs ul li[active]:nth-child(3) ~ li:last-child {
-          --flavour: #ea6962;
+          --flavour:rgb(98, 227, 234);
       }
 
       #tabs ul li[active]:nth-child(4) ~ li:last-child {
-          --flavour: #7daea3;
+          --flavour:rgb(255, 216, 132);
       }
 
       #tabs ul li[active]:nth-child(5) ~ li:last-child {
@@ -125,11 +125,11 @@ class Statusbar extends Component {
       }
 
       #tabs ul li[active]:nth-child(6) ~ li:last-child {
-          --flavour: #89b482;
+          --flavour:rgb(183, 83, 255);
       }
 
       #tabs ul li[active]:nth-child(7) ~ li:last-child {
-          --flavour: #a9b665;
+          --flavour:rgb(193, 255, 165);
       }
 
       #tabs ul li[active]:nth-child(8) ~ li:last-child {
@@ -137,7 +137,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li[active]:nth-child(9) ~ li:last-child {
-          --flavour: #ea6962;
+          --flavour:rgb(145, 169, 255);
       }
 
       #tabs ul li[active]:nth-child(10) ~ li:last-child {

@@ -34,12 +34,7 @@ const default_config = {
         {
           name: "Redes Sociales",
           links: [
-            {
-              name: "Whatsapp",
-              url: "https://web.whatsapp.com/",
-              icon: "brand-whatsapp",
-              icon_color: "#a9b665",
-            },
+            
             {
               name: "X",
               url: "https://x.com/home?lang=es",
@@ -124,7 +119,7 @@ const default_config = {
               icon_color: "#d3869b",
             },
             {
-              name: "Color Picker",
+              name: "Colors",
               url: "https://imagecolorpicker.com/",
               icon: "palette",
               icon_color: "#daa0cc",
@@ -206,6 +201,12 @@ const default_config = {
               url: "https://www.datacamp.com/",
               icon: "brand-python",
               icon_color: "#059669",
+            },
+            {
+              name: "Google Books",
+              url: "https://play.google.com/books?type=ebooks&source=uploads",
+              icon: "book",
+              icon_color: "#ea6962",
             },
           ],
         },
@@ -291,7 +292,7 @@ const default_config = {
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
-          name: "Google",
+          name: "Mensajería",
           links: [
             {
               name: "Gmail",
@@ -300,10 +301,10 @@ const default_config = {
               icon_color: "#ea6962",
             },
             {
-              name: "Google Books",
-              url: "https://play.google.com/books?type=ebooks&source=uploads",
-              icon: "book",
-              icon_color: "#ea6962",
+              name: "Whatsapp",
+              url: "https://web.whatsapp.com/",
+              icon: "brand-whatsapp",
+              icon_color: "#a9b665",
             },
           ],
         },
