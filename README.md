@@ -1,5 +1,5 @@
 ## 💻 Preview
-https://github.com/Zerabalus/zerabalus.github.io/blob/main/elementos/startpage-2025-version-1.mp4
+https://github.com/user-attachments/assets/bff57b6d-5f69-434e-9ef9-5f22258ce5ad
 
 My custom homepage inspired by Xiao from Genshin Impact, modified a lot and made some tweaks myself because I like transparency too much lol.
 
@@ -14,7 +14,6 @@ My custom homepage inspired by Xiao from Genshin Impact, modified a lot and made
 | <kbd>Esc</kbd>                           | Close Dialogs            |
 
 ## 🔍 Search Dialog
-![search-dialog](https://github.com/AllJavi/tartarus-startpage/assets/49349604/3f76323d-88c4-41b6-b93d-e4cceb1780b7)
 
 The search dialog allows you to display a search bar with various search engines defined in the configuration. To select each one, you simply need to prefix the query with the corresponding `!<id>`.
 By default, the defined search engines are:
@@ -25,7 +24,7 @@ By default, the defined search engines are:
 - `!p`: pinterest
 
 ## ⚙️ Configuration Dialog
-![config-dialog](https://github.com/AllJavi/tartarus-startpage/assets/49349604/3b42c650-b5bb-4a7d-a358-cfa5a8915966)
+
 
 The default configuration file is [userconfig.js](userconfig.js), but you can change it in the configuration dialog. You can find more information about how the file works in the [original repository](https://github.com/b-coimbra/dawn) and [Tartarus](https://github.com/AllJavi/tartarus-startpage/tree/master) for more info.
 
