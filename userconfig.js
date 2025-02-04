@@ -120,7 +120,7 @@ const default_config = {
             },
             {
               name: "Colors",
-              url: "https://imagecolorpicker.com/",
+              url: "https://coolors.co/image-picker",
               icon: "palette",
               icon_color: "#daa0cc",
             }
