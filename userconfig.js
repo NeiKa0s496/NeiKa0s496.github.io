@@ -114,7 +114,7 @@ const default_config = {
             },
             {
               name: "PixAi",
-              url: "https://www.pixai.com/",
+              url: "https://pixai.art/",
               icon: "brand-openai",
               icon_color: "#d3869b",
             },
