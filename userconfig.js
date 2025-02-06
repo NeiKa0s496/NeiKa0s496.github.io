@@ -79,7 +79,7 @@ const default_config = {
             },
             {
               name: "Anilist",
-              url: "https://anilist.co/user/ZerAdam/",
+              url: "https://anilist.co/user/Zerabalus/",
               icon: "brand-funimation",
               icon_color: "#9dbe8a",
             },
