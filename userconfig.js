@@ -148,9 +148,9 @@ const default_config = {
               icon_color: "#8abeb7",
             },
             {
-              name: "ChatGPT",
-              url: "https://chat.openai.com/",
-              icon: "brand-openai",
+              name: "Deepseek",
+              url: "https://chat.deepseek.com/",
+              icon: "world-search",
               icon_color: "#f0c674",
             },
             {
@@ -173,7 +173,7 @@ const default_config = {
             
             {
               name: "Google Classroom",
-              url: "https://classroom.google.com/u/2/h",
+              url: "https://classroom.google.com/u/1/h?pli=1",
               icon: "school",
               icon_color: "#eab308",
             },
@@ -232,7 +232,7 @@ const default_config = {
               icon_color: "#e78a4e",
             },
             {
-              name:"Huggingface",
+              name:"Hugging Face",
               url:"https://huggingface.co",
               icon:"mood-smile",
               icon_color:"#eab308"
@@ -296,7 +296,7 @@ const default_config = {
           links: [
             {
               name: "Gmail",
-              url: "https://mail.google.com/mail/u/0/",
+              url: "https://mail.google.com/mail/u/1/#inbox",
               icon: "brand-gmail",
               icon_color: "#ea6962",
             },
@@ -306,10 +306,16 @@ const default_config = {
               icon: "brand-whatsapp",
               icon_color: "#a9b665",
             },
+            {
+              name: "Facebook",
+              url: "https://www.facebook.com/",
+              icon: "brand-facebook",
+              icon_color: "#0284c7"
+            }
           ],
         },
         {
-          name: "compras",
+          name: "Compras",
           links: [
             {
               name: "Amazon",
@@ -332,7 +338,7 @@ const default_config = {
               name: "Discord",
               url:"https://discord.com/channels/@me",
               icon:"brand-discord",
-              icon_color:"#7daea3"
+              icon_color:"#c49ae5"
             },
             {
               name:"Clip Studio",
