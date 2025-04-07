@@ -79,14 +79,27 @@ body {
     
 }
 
-/*color de fondo */
 tabs-list {
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url(../img/cute.gif);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
+    overflow: hidden; /* Evita que el blur se salga del contenedor */
+}
+
+tabs-list::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/aven.gif);
+    background-repeat: repeat;
+    background-size: cover;
+    filter: blur(5px); /* Ajusta el nivel de desenfoque*/
+    z-index: -1; /* El fondo detrás*/
 }
 
 
