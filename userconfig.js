@@ -19,7 +19,7 @@ const default_config = {
     },
   },
   keybindings: {
-    s: "search-bar",
+    ñ: "search-bar",
     q: "config-tab",
   },
   disabled: [],
