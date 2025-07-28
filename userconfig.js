@@ -79,7 +79,7 @@ const default_config = {
             },
             {
               name: "Anilist",
-              url: "https://anilist.co/user/NeiKos426/",
+              url: "https://anilist.co/user/NeiK0s426/",
               icon: "brand-funimation",
               icon_color: "#9dbe8a",
             },
@@ -221,13 +221,13 @@ const default_config = {
           links: [
             {
               name: "Github",
-              url: "https://github.com/NeiK0s426",
+              url: "https://github.com/NeiKa0s496",
               icon: "brand-github",
               icon_color: "#7daea3",
             },
             {
               name: "Gitlab",
-              url: "https://gitlab.com/NeiKos426",
+              url: "https://gitlab.com/NeiKos496",
               icon: "brand-gitlab",
               icon_color: "#e78a4e",
             },
