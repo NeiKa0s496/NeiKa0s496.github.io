@@ -95,7 +95,7 @@ tabs-list::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../img/sunny1.gif);
+    background-image: url(../img/sunny3.gif);
     background-repeat: repeat;
     background-size: cover;
     filter: blur(5px); /* Ajusta el nivel de desenfoque*/
