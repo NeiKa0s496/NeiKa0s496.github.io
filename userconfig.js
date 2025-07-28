@@ -79,13 +79,13 @@ const default_config = {
             },
             {
               name: "Anilist",
-              url: "https://anilist.co/user/Zerabalus/",
+              url: "https://anilist.co/user/NeiKos426/",
               icon: "brand-funimation",
               icon_color: "#9dbe8a",
             },
             {
               name: "MyAnimeList",
-              url: "https://myanimelist.net/",
+              url: "https://https://myanimelist.net/profile/NeiKos426",
               icon: "robot",
               icon_color: "#5a6ac8",
             },
@@ -221,13 +221,13 @@ const default_config = {
           links: [
             {
               name: "Github",
-              url: "https://github.com/Zerabalus",
+              url: "https://github.com/NeiK0s426",
               icon: "brand-github",
               icon_color: "#7daea3",
             },
             {
               name: "Gitlab",
-              url: "https://gitlab.com/epharedam",
+              url: "https://gitlab.com/NeiKos426",
               icon: "brand-gitlab",
               icon_color: "#e78a4e",
             },
@@ -296,7 +296,7 @@ const default_config = {
           links: [
             {
               name: "Gmail",
-              url: "https://mail.google.com/mail/u/1/#inbox",
+              url: "https://mail.google.com/mail/u/3/",
               icon: "brand-gmail",
               icon_color: "#ea6962",
             },
