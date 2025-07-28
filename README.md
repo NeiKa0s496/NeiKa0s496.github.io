@@ -1,5 +1,5 @@
 ## 💻 Preview
-https://github.com/user-attachments/assets/bff57b6d-5f69-434e-9ef9-5f22258ce5ad
+https://github.com/user-attachments/assets/b41b1666-4ddc-436e-a54b-44fdb78de2dc
 
 My custom homepage inspired by Xiao from Genshin Impact, modified a lot and made some tweaks myself because I like transparency too much lol.
 
