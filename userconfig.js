@@ -79,7 +79,7 @@ const default_config = {
             },
             {
               name: "Anilist",
-              url: "https://anilist.co/user/NeiK0s426/",
+              url: "https://anilist.co/user/NeiK0s496/",
               icon: "brand-funimation",
               icon_color: "#9dbe8a",
             },
@@ -279,7 +279,7 @@ const default_config = {
           links: [
             {
               name: "Leetcode",
-              url: "https://leetcode.com/",
+              url: "https://leetcode.com/u/NeiK0s496/",
               icon: "code-asterix",
               icon_color: "#a9b665",
             },
