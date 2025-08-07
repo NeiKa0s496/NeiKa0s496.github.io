@@ -29,7 +29,7 @@ const default_config = {
   tabs: [
     {
       name: "Ocio",
-      background_url: "src/img/banners/bg-1.gif",
+      background_url: "src/img/banners/aventurine.gif",
       categories: [
         {
           name: "Redes Sociales",
@@ -130,7 +130,7 @@ const default_config = {
     },
     {
       name: "Uni",
-      background_url: "src/img/banners/cbg-6.gif",
+      background_url: "src/img/banners/phainon2.gif",
       categories: [
         {
           name: "Util",
@@ -173,7 +173,7 @@ const default_config = {
             
             {
               name: "Google Classroom",
-              url: "https://classroom.google.com/u/1/h?pli=1",
+              url: "https://classroom.google.com/u/4/?pli=1",
               icon: "school",
               icon_color: "#eab308",
             },
@@ -214,7 +214,7 @@ const default_config = {
     },
     {
       name: "Code",
-      background_url: "src/img/banners/cbg-7.gif",
+      background_url: "src/img/banners/sw.gif",
       categories: [
         {
           name: "Dev",
@@ -289,7 +289,7 @@ const default_config = {
     },
     {
       name: "Mío",
-      background_url: "src/img/banners/cbg-9.gif",
+      background_url: "src/img/banners/sunny.gif",
       categories: [
         {
           name: "Mensajería",

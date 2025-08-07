@@ -78,7 +78,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li:not(:last-child):hover {
-          background: #32302f;
+          background: #00353bff;
       }
 
       #tabs ul li:last-child {
@@ -180,7 +180,7 @@ class Statusbar extends Component {
 
       .widget:hover {
           cursor: pointer;
-          background: rgba(255, 255, 255, .05);
+          background: rgba(31, 255, 214, 0.05);
       }
 
       #tabs > cols {
@@ -208,7 +208,7 @@ class Statusbar extends Component {
 
       .fastlink {
           border: 0;
-          background: #32302f;
+          background: #007571ff;
           color: #a9b665;
           cursor: pointer;
           border-radius: 5px 15px 15px 5px;
@@ -217,7 +217,7 @@ class Statusbar extends Component {
       .fastlink:hover {
           filter: brightness(1.2);
       }
-       /* cambiar el tamaño del icono de la marca del cazador */
+       /* cambiar el tamaño del icono de la mascara de xiao */
       .fastlink-icon {
 	      width: 70%;
         /* filter: invert(1); para la marca del cazador blanca*/
