@@ -88,13 +88,20 @@ class Tabs extends Component {
 
   style() {
     return `
+    /* para la barra de */
       status-bar {
           bottom: -70px;
           height: 32px;
-          background:rgb(49, 49, 49);
+          background:rgba(88, 137, 144, 0.5);
           border-radius: 4px;
-          box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
-      }
+          box-shadow: 
+          0 4px 6px rgba(14, 13, 13, 0.1),
+          inset 0 1px 0 rgba(255, 255, 255, 0.1); /* Sombra interior para profundidad */
+          backdrop-filter: blur(10px); /* Efecto de desenfoque*/
+          -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+          border: 1px solid rgba(255, 255, 255, 0.1); /* Borde*/
+          z-index: 1000; /* Asegura que esté por encima de otros elementos */
+          }
 
       #panels, #panels ul,
       #panels .links {
@@ -108,7 +115,7 @@ class Tabs extends Component {
 
       #panels {
           border-radius: 5px 0 0 5px;
-          width: 90%;
+          width: 100%;
           max-width: 1200px;
           height: 450px;
           right: 0;
@@ -116,7 +123,7 @@ class Tabs extends Component {
           top: 0;
           bottom: 0;
           margin: auto;
-          box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+          box-shadow: 0 5px 10px rgba(0, 230, 222, 0.2);
           background: rgb(49 49 49 / 60%);
           backdrop-filter: blur(1px);
       }
@@ -199,12 +206,12 @@ class Tabs extends Component {
           z-index: 1;
       }
     
-      /* color de fondo*/
+      /* color de fondo y ancho del blur del area de los links*/
 
       .categories .links {
           right: 0;
-          width: 62%;
-          height: 100%;
+          width: 63%;
+          height: 110%;
           background: rgb(49 49 49 / 0%);
           padding: 5%;
           flex-wrap: wrap;
@@ -251,13 +258,13 @@ class Tabs extends Component {
           display: flex;
           text-transform: uppercase;
           overflow-wrap: break-word;
-          width: 25px;
-          height: 250px;
+          width: 18px;
+          height: 375px;
           padding: 1em;
           margin: auto;
           border-radius: 5px;
           box-shadow: inset 0 0 0 2px var(--flavour);
-          left: calc(15% - 42.5px);
+          right: 5px;
           bottom: 0;
           top: 0;
           background: linear-gradient(to bottom, rgb(49 49 49 / 80%), transparent);
@@ -298,7 +305,7 @@ class Tabs extends Component {
       }
 
       .categories .link-icon + .link-name {
-          margin-left: 10px;
+          margin-left: 8px;
       }
 
       .categories .links-wrapper {

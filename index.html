@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="src/css/awoo.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Oxanium:200|K2D:100,400,700|Raleway:600" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/gh/monzanifabio/cryptofont/cryptofont.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
-    <link href="src/css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="src/css/awoo.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxanium:200|K2D:100,400,700|Raleway:600"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/gh/monzanifabio/cryptofont/cryptofont.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="src/css/style.css" rel="stylesheet" type="text/css" />
     <!-- <link href="src/css/tabler-icons.min.css" rel="stylesheet"> -->
 
     <link rel="icon" type="image/svg+xml" href="src/img/xiao.svg";">
-    
+
     <title>~/user 🏠</title>
   </head>
-  <body> 
+  <body>
+    <!-- Mensaje de bienvenida -->
+    <div class="welcome-container">
+      <div class="welcome-message">INICIANDO...</div>
+    </div>
 
-    <h1>NeiKos496.exe</h1>
-    
+    <h1>
+      <span class="glitch-text">Bienvenido NeiKos496</span>
+    </h1>
+
     <tabs-list></tabs-list>
 
     <script type="text/javascript" src="src/common/utils.js"></script>
@@ -30,18 +45,75 @@
 
     <script type="text/javascript" src="./userconfig.js"></script>
 
-    <script type="text/javascript" src="src/components/tabs/tabs.component.js"></script>
+    <script
+      type="text/javascript"
+      src="src/components/tabs/tabs.component.js"
+    ></script>
 
-    <script type="text/javascript" src="src/components/weather/weather.api.js"></script>
-    <script type="text/javascript" src="src/components/weather/weather.component.js"></script>
+    <script
+      type="text/javascript"
+      src="src/components/weather/weather.api.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="src/components/weather/weather.component.js"
+    ></script>
 
-    <script type="text/javascript" src="src/components/clock/clock.component.js"></script>
+    <script
+      type="text/javascript"
+      src="src/components/clock/clock.component.js"
+    ></script>
 
-    <script type="text/javascript" src="src/components/statusbar/statusbar.component.js"></script>
+    <script
+      type="text/javascript"
+      src="src/components/statusbar/statusbar.component.js"
+    ></script>
 
-    <script type="text/javascript" src="src/components/search/search.component.js"></script>
-    <script type="text/javascript" src="src/components/config/config.component.js"></script>
+    <script
+      type="text/javascript"
+      src="src/components/search/search.component.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="src/components/config/config.component.js"
+    ></script>
 
     <script type="text/javascript" src="src/common/module.js"></script>
+    <script>
+      // Cuando la página se carga completamente
+      window.addEventListener("load", function () {
+        // Aplicar glitch fuerte al mensaje de bienvenida
+        const welcomeMsg = document.querySelector(".welcome-message");
+        welcomeMsg.style.animation =
+          "welcomeFade 2.5s ease-out forwards, glitch-big 0.5s infinite alternate";
+
+        // Elimina el mensaje de bienvenida después de la animación
+        setTimeout(function () {
+          document.querySelector(".welcome-container").style.opacity = "0";
+          setTimeout(() => {
+            document.querySelector(".welcome-container").style.display = "none";
+          }, 500);
+          document.body.classList.add("loaded");
+        }, 2500);
+
+        // Efecto glitch intermitente para el título principal
+        setInterval(function () {
+          document.querySelector("h1").style.animation = "glitch-big 0.5s";
+          setTimeout(function () {
+            document.querySelector("h1").style.animation =
+              "glitch 5s infinite alternate";
+          }, 500);
+        }, 10000);
+      });
+    </script>
+
+    <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Muestra el contenido principal después de la animación
+    setTimeout(() => {
+      document.body.classList.add('loaded');
+    }, 3500); // 3.5 segundos
+  });
+</script>
   </body>
 </html>
