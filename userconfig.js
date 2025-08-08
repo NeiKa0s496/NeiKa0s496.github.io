@@ -34,7 +34,6 @@ const default_config = {
         {
           name: "Redes Sociales",
           links: [
-            
             {
               name: "X",
               url: "https://x.com/home?lang=es",
@@ -64,8 +63,7 @@ const default_config = {
               url: "https://www.tumblr.com/",
               icon: "brand-tumblr",
               icon_color: "#7daea3",
-            }
-            
+            },
           ],
         },
         {
@@ -92,7 +90,7 @@ const default_config = {
           ],
         },
         {
-        name: "Inspiración y Edits",
+          name: "Inspiración y Edits",
           links: [
             {
               name: "Pixiv",
@@ -123,9 +121,9 @@ const default_config = {
               url: "https://coolors.co/image-picker",
               icon: "palette",
               icon_color: "#daa0cc",
-            }
+            },
           ],
-        }
+        },
       ],
     },
     {
@@ -170,7 +168,7 @@ const default_config = {
               icon: "device-laptop",
               icon_color: "#8abeb7",
             },
-            
+
             {
               name: "Google Classroom",
               url: "https://classroom.google.com/u/4/?pli=1",
@@ -183,8 +181,7 @@ const default_config = {
               url: "https://drive.google.com/drive/u/0/home",
               icon: "brand-google-drive",
               icon_color: "#ffa348",
-            }
-
+            },
           ],
         },
         {
@@ -193,8 +190,14 @@ const default_config = {
             {
               name: "Matemáticas IV",
               url: "https://tuaulavirtual.educatic.unam.mx/my/courses.php",
+              icon: "bookmark",
+              icon_color: "#ffa348",
+            },
+            {
+              name: "Lógica Computacional",
+              url: "https://turing.iimas.unam.mx/~nohernan/teaching/notas-lc/index.html",
               icon: "book",
-              icon_color: "#ea6962",
+              icon_color: "#8abeb7",
             },
             {
               name: "Datacamp",
@@ -232,11 +235,11 @@ const default_config = {
               icon_color: "#e78a4e",
             },
             {
-              name:"Hugging Face",
-              url:"https://huggingface.co",
-              icon:"mood-smile",
-              icon_color:"#eab308"
-            }
+              name: "Hugging Face",
+              url: "https://huggingface.co",
+              icon: "mood-smile",
+              icon_color: "#eab308",
+            },
           ],
         },
         {
@@ -267,11 +270,11 @@ const default_config = {
               icon_color: "#0891b2",
             },
             {
-              name:"Cisco",
-              url:"https://www.netacad.com/dashboard",
-              icon:"router",
-              icon_color:"#ea6962"
-            }
+              name: "Cisco",
+              url: "https://www.netacad.com/dashboard",
+              icon: "router",
+              icon_color: "#ea6962",
+            },
           ],
         },
         {
@@ -310,8 +313,8 @@ const default_config = {
               name: "Facebook",
               url: "https://www.facebook.com/",
               icon: "brand-facebook",
-              icon_color: "#0284c7"
-            }
+              icon_color: "#0284c7",
+            },
           ],
         },
         {
@@ -322,6 +325,18 @@ const default_config = {
               url: "https://www.amazon.com.mx/",
               icon: "brand-amazon",
               icon_color: "#ea6962",
+            },
+            {
+              name: "AliExpress",
+              url: "https://es.aliexpress.com/",
+              icon: "shopping-cart",
+              icon_color: "#ff6b00",
+            },
+            {
+              name: "IKEA",
+              url: "https://www.ikea.com/mx/",
+              icon: "armchair-2",
+              icon_color: "#0058a3",
             },
           ],
         },
@@ -336,16 +351,16 @@ const default_config = {
             },
             {
               name: "Discord",
-              url:"https://discord.com/channels/@me",
-              icon:"brand-discord",
-              icon_color:"#c49ae5"
+              url: "https://discord.com/channels/@me",
+              icon: "brand-discord",
+              icon_color: "#c49ae5",
             },
             {
-              name:"Clip Studio",
-              url:"https://assets.clip-studio.com/es-es//",
-              icon:"pencil",
-              icon_color:"#ea6962"
-            }
+              name: "Clip Studio",
+              url: "https://assets.clip-studio.com/es-es//",
+              icon: "pencil",
+              icon_color: "#ea6962",
+            },
           ],
         },
       ],
