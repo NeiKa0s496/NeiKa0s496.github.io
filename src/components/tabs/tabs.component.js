@@ -251,7 +251,7 @@ class Tabs extends Component {
           color: var(--flavour);
       }
 
- /* cambiar el color de la caja de letras y demas */
+ /* cambiar el color de la caja de letras de categorias y demas */
       .categories ul::after {
           content: attr(class);
           position: absolute;
@@ -259,7 +259,7 @@ class Tabs extends Component {
           text-transform: uppercase;
           overflow-wrap: break-word;
           width: 18px;
-          height: 375px;
+          height: 380px;
           padding: 1em;
           margin: auto;
           border-radius: 5px;
