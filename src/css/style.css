@@ -190,7 +190,7 @@
 /* Contenedor principal del título */
 h1 {
   position: absolute;
-  top: 5%;
+  top: 2%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
