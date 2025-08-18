@@ -211,6 +211,12 @@ const default_config = {
               icon: "book",
               icon_color: "#ea6962",
             },
+            {
+              name: "Mi Horario",
+              url: "/schedule.html",  // Add this line
+              icon: "calendar",
+              icon_color: "#eab308",
+            },
           ],
         },
       ],

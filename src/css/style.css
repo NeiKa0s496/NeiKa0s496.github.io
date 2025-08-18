@@ -266,4 +266,62 @@ tabs-list::before {
   transform: scaleX(-1); /* Esto espeja la imagen horizontalmente */
 } 
 
+/* estilo de la página horario */
+.schedule-container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1200px;
+  z-index: 10;
+  padding: 2rem;
+  background: rgba(40, 40, 40, 0.7);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid var(--accent);
+  box-shadow: 0 0 20px rgba(104, 201, 200, 0.3);
+}
 
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Oxanium", sans-serif;
+  color: #e0e0e0;
+}
+
+.schedule-table th {
+  background-color: rgba(104, 201, 200, 0.2);
+  color: var(--accent);
+  padding: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 1px solid rgba(104, 201, 200, 0.3);
+}
+
+.schedule-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid rgba(104, 201, 200, 0.1);
+  position: relative;
+}
+
+.schedule-table td:first-child {
+  font-weight: bold;
+  color: var(--accent);
+}
+
+.schedule-table tr:nth-child(even) {
+  background-color: rgba(40, 40, 40, 0.5);
+}
+
+.schedule-table tr:hover {
+  background-color: rgba(104, 201, 200, 0.1);
+}
+
+/* efecto glitch */
+.schedule-table td:empty::before {
+  content: "---";
+  color: rgba(104, 201, 200, 0.3);
+}

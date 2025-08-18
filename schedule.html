@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="src/css/awoo.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxanium:200|K2D:100,400,700|Raleway:600"
+      rel="stylesheet"
+    />
+    <link href="src/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/svg+xml" href="src/img/xiao.svg">
+    <title>~/schedule 🏠</title>
+  </head>
+  <body>
+    <!-- misma animacion que la pagina de bienvenida -->
+    <div class="welcome-container">
+      <div class="welcome-message">CARGANDO HORARIO...</div>
+    </div>
+
+    <h1>
+      <span class="glitch-text">Horario</span>
+    </h1>
+
+    <div class="schedule-container">
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>14:00 - 15:00</td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Computación Distribuida</span>
+                <span class="class-details">Ayud. Lab. Taller Lenguajes de Programación</span>
+              </div>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>15:00 - 16:00</td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Computación Distribuida</span>
+                <span class="class-details">Ayud. Lab. Taller Lenguajes de Programación</span>
+              </div>
+            </td>
+            <td></td>
+            <td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>16:00 - 17:00</td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Computación Distribuida</span>
+                <span class="class-details">Prof. O221</span>
+              </div>
+            </td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Computación Distribuida</span>
+                <span class="class-details">Ayud. O221</span>
+              </div>
+            </td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Computación Distribuida</span>
+                <span class="class-details">Prof. O221</span>
+              </div>
+            </td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Computación Distribuida</span>
+                <span class="class-details">Ayud. O221</span>
+              </div>
+            </td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Computación Distribuida</span>
+                <span class="class-details">Prof. O221</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>18:00 - 19:00</td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Autómatas y Lenguajes Formales</span>
+                <span class="class-details">Prof. O124</span>
+              </div>
+            </td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Autómatas y Lenguajes Formales</span>
+                <span class="class-details">Ayud. O124</span>
+              </div>
+            </td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Autómatas y Lenguajes Formales</span>
+                <span class="class-details">Prof. O124</span>
+              </div>
+            </td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Autómatas y Lenguajes Formales</span>
+                <span class="class-details">Ayud. O124</span>
+              </div>
+            </td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Autómatas y Lenguajes Formales</span>
+                <span class="class-details">Prof. O124</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>19:00 - 20:00</td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Probabilidad I</span>
+                <span class="class-details">Prof. O216</span>
+              </div>
+            </td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Probabilidad I</span>
+                <span class="class-details">Ayud. O216</span>
+              </div>
+            </td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Probabilidad I</span>
+                <span class="class-details">Prof. O216</span>
+              </div>
+            </td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Probabilidad I</span>
+                <span class="class-details">Ayud. O216</span>
+              </div>
+            </td>
+            <td>
+              <div class="class-entry">
+                <span class="class-name">Probabilidad I</span>
+                <span class="class-details">Prof. O216</span>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <!-- scripts iguales que main -->
+    <script type="text/javascript" src="src/common/utils.js"></script>
+    <script>
+      // misma logica de animacion que  index.html
+      window.addEventListener("load", function () {
+        const welcomeMsg = document.querySelector(".welcome-message");
+        welcomeMsg.style.animation =
+          "welcomeFade 2.5s ease-out forwards, glitch-big 0.5s infinite alternate";
+
+        setTimeout(function () {
+          document.querySelector(".welcome-container").style.opacity = "0";
+          setTimeout(() => {
+            document.querySelector(".welcome-container").style.display = "none";
+          }, 500);
+          document.body.classList.add("loaded");
+        }, 2500);
+      });
+    </script>
+  </body>
+</html>
