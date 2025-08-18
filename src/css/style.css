@@ -266,6 +266,42 @@ tabs-list::before {
   transform: scaleX(-1); /* Esto espeja la imagen horizontalmente */
 } 
 
+/*horario*/
+
+/* Fondo para la página de horario */
+body.schedule-page {
+  position: relative;
+  overflow: hidden;
+}
+
+body.schedule-page::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../img/blue.gif");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  filter: blur(3px);
+  z-index: -2;
+  opacity: 1;
+}
+
+body.schedule-page::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(40, 40, 40, 0.4);
+  z-index: -1;
+}
+
+
 /* estilo de la página horario */
 .schedule-container {
   position: absolute;
