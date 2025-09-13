@@ -131,16 +131,16 @@
   font-weight: bold;
   color: #5dc1b9;
   animation: 
-    welcomeFade 1.5s ease-out forwards, /* Faster animation - 1.5 seconds */
-    glitch 5s infinite alternate 0.5s; /* Glitch starts after 0.5s */
+    welcomeFade 1s ease-out forwards, /* Faster animation - 1.5 seconds */
+    glitch 0.5s infinite alternate 0.5s; /* Glitch starts after 0.5s */
   text-align: center;
   font-family: "Oxanium", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   padding: 2rem;
   position: relative;
-  animation: welcomeFade 1.5s ease-out forwards, 
-             glitch 2s infinite alternate 0.5s;
+  animation: welcomeFade 1s ease-out forwards, 
+             glitch 0.5s infinite alternate 0.5s;
   opacity: 0; /* Empieza invisible */
 }
 
