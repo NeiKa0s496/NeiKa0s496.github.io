@@ -167,22 +167,21 @@
     </div>
 
 
-    <!-- scripts iguales que main -->
     <script type="text/javascript" src="src/common/utils.js"></script>
     <script>
-      // misma logica de animacion que  index.html
+      // Animación más rápida - reducida de 2.5s a 1.5s
       window.addEventListener("load", function () {
         const welcomeMsg = document.querySelector(".welcome-message");
         welcomeMsg.style.animation =
-          "welcomeFade 2.5s ease-out forwards, glitch-big 0.5s infinite alternate";
+          "welcomeFade 1.5s ease-out forwards, glitch-big 0.5s infinite alternate";
 
         setTimeout(function () {
           document.querySelector(".welcome-container").style.opacity = "0";
           setTimeout(() => {
             document.querySelector(".welcome-container").style.display = "none";
-          }, 500);
+          }, 300); // Reducido de 500ms a 300ms
           document.body.classList.add("loaded");
-        }, 2500);
+        }, 1500); // Reducido de 2500ms a 1500ms
       });
     </script>
   </body>

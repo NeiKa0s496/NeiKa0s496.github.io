@@ -85,16 +85,16 @@
         // Aplicar glitch fuerte al mensaje de bienvenida
         const welcomeMsg = document.querySelector(".welcome-message");
         welcomeMsg.style.animation =
-          "welcomeFade 2.5s ease-out forwards, glitch-big 0.5s infinite alternate";
+          "welcomeFade 1.5s ease-out forwards, glitch-big 0.5s infinite alternate"; // Reducido de 2.5s a 1.5s
 
         // Elimina el mensaje de bienvenida después de la animación
         setTimeout(function () {
           document.querySelector(".welcome-container").style.opacity = "0";
           setTimeout(() => {
             document.querySelector(".welcome-container").style.display = "none";
-          }, 500);
+          }, 300); // Reducido a 300ms
           document.body.classList.add("loaded");
-        }, 2500);
+        }, 1500); // Reducido a 1500ms
 
         // Efecto glitch intermitente para el título principal
         setInterval(function () {
@@ -108,12 +108,12 @@
     </script>
 
     <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    // Muestra el contenido principal después de la animación
-    setTimeout(() => {
-      document.body.classList.add('loaded');
-    }, 3500); // 3.5 segundos
-  });
-</script>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Muestra el contenido principal después de la animación
+        setTimeout(() => {
+          document.body.classList.add('loaded');
+        }, 2000); // Reducido a 2000ms
+      });
+    </script>
   </body>
 </html>
