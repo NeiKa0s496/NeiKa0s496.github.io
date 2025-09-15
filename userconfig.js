@@ -171,14 +171,14 @@ const default_config = {
 
             {
               name: "Google Classroom",
-              url: "https://classroom.google.com/u/4/?pli=1",
+              url: "https://classroom.google.com/u/3/?pli=1",
               icon: "school",
               icon_color: "#eab308",
             },
 
             {
               name: "Drive",
-              url: "https://drive.google.com/drive/u/0/home",
+              url: "https://drive.google.com/drive/u/1/home",
               icon: "brand-google-drive",
               icon_color: "#ffa348",
             },
