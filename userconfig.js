@@ -29,7 +29,7 @@ const default_config = {
   tabs: [
     {
       name: "Ocio",
-      background_url: "src/img/banners/aventurine.gif",
+      background_url: "src/img/banners/aven2.gif",
       categories: [
         {
           name: "Redes Sociales",
@@ -122,6 +122,12 @@ const default_config = {
               icon: "palette",
               icon_color: "#daa0cc",
             },
+            {
+              name: "Wallrice",
+              url: "https://www.wallrice.xyz/",
+              icon: "color-swatch",
+              icon_color: "#8abeb7",
+            }
           ],
         },
       ],
@@ -171,7 +177,7 @@ const default_config = {
 
             {
               name: "Google Classroom",
-              url: "https://classroom.google.com/u/3/?pli=1",
+              url: "https://classroom.google.com/?pli=1",
               icon: "school",
               icon_color: "#eab308",
             },
@@ -212,6 +218,12 @@ const default_config = {
               icon_color: "#ea6962",
             },
             {
+              name: "NotebookLM",
+              url: "https://notebooklm.google.com/?authuser=2",
+              icon: "notes",
+              icon_color: "#b1bbd8ff",
+            },
+            {
               name: "Mi Horario",
               url: "/schedule.html",  // Add this line
               icon: "calendar",
@@ -246,6 +258,12 @@ const default_config = {
               icon: "mood-smile",
               icon_color: "#eab308",
             },
+            {
+              name: "Icons Tabler",
+              url: "https://tabler.io/icons",
+              icon: "code",
+              icon_color: "#a0f68fff",
+            }
           ],
         },
         {
@@ -297,15 +315,15 @@ const default_config = {
       ],
     },
     {
-      name: "Mío",
-      background_url: "src/img/banners/sunny.gif",
+      name: "Personal",
+      background_url: "src/img/banners/sunny3.gif",
       categories: [
         {
           name: "Mensajería",
           links: [
             {
               name: "Gmail",
-              url: "https://mail.google.com/mail/u/3/",
+              url: "https://mail.google.com/mail/u/0/#inbox",
               icon: "brand-gmail",
               icon_color: "#ea6962",
             },
@@ -342,8 +360,14 @@ const default_config = {
               name: "IKEA",
               url: "https://www.ikea.com/mx/",
               icon: "armchair-2",
-              icon_color: "#0058a3",
+              icon_color: "#67b8ffff",
             },
+            {
+              name: "Mercado Libre",
+              url: "https://mercadolibre.com.mx/",
+              icon: "shopping-bag-check",
+              icon_color: "#deaf30ff",
+            }
           ],
         },
         {
