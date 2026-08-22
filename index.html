@@ -85,16 +85,16 @@
         // Aplicar glitch fuerte al mensaje de bienvenida
         const welcomeMsg = document.querySelector(".welcome-message");
         welcomeMsg.style.animation =
-          "welcomeFade 1.5s ease-out forwards, glitch-big 0.5s infinite alternate"; // Reducido de 2.5s a 1.5s
+          "welcomeFade 1s ease-out forwards, glitch-big 0.5s infinite alternate"; // 1.s
 
         // Elimina el mensaje de bienvenida después de la animación
         setTimeout(function () {
           document.querySelector(".welcome-container").style.opacity = "0";
           setTimeout(() => {
             document.querySelector(".welcome-container").style.display = "none";
-          }, 300); // Reducido a 300ms
+          }, 200); // Reducido a 300ms
           document.body.classList.add("loaded");
-        }, 1500); // Reducido a 1500ms
+        }, 800); // Reducido 
 
         // Efecto glitch intermitente para el título principal
         setInterval(function () {
@@ -102,8 +102,8 @@
           setTimeout(function () {
             document.querySelector("h1").style.animation =
               "glitch 5s infinite alternate";
-          }, 500);
-        }, 10000);
+          }, 900);
+        }, 1200);
       });
     </script>
 
@@ -112,7 +112,7 @@
         // Muestra el contenido principal después de la animación
         setTimeout(() => {
           document.body.classList.add('loaded');
-        }, 2000); // Reducido a 2000ms
+        }, 1500); // Reducido
       });
     </script>
   </body>
