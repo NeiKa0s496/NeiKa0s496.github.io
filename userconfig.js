@@ -29,7 +29,7 @@ const default_config = {
   tabs: [
     {
       name: "Ocio",
-      background_url: "src/img/banners/aven2.gif",
+      background_url: "src/img/banners/aventurine.gif",
       categories: [
         {
           name: "Redes Sociales",
@@ -134,7 +134,7 @@ const default_config = {
     },
     {
       name: "Uni",
-      background_url: "src/img/banners/phainon2.gif",
+      background_url: "src/img/banners/phainon.gif",
       categories: [
         {
           name: "Util",
@@ -316,7 +316,7 @@ const default_config = {
     },
     {
       name: "Personal",
-      background_url: "src/img/banners/sunny3.gif",
+      background_url: "src/img/banners/sunny.gif",
       categories: [
         {
           name: "Mensajería",
