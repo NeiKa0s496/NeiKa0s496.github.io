@@ -1,5 +1,5 @@
 ## 💻 Preview
-
+# <div align="center" color="White"> <img src="src/img/neiweb.gif" alt="xiao" height="350" width="600"></div>
 
 My custom homepage inspired by Xiao from Genshin Impact, modified a lot and made some tweaks myself because I like transparency too much lol.
 
