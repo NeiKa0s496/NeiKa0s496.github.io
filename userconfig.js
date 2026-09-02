@@ -134,7 +134,7 @@ const default_config = {
     },
     {
       name: "Uni",
-      background_url: "src/img/banners/fbg-1.gif",
+      background_url: "src/img/banners/phai2.gif",
       categories: [
         {
           name: "Util",
@@ -315,7 +315,7 @@ const default_config = {
     },
     {
       name: "Personal",
-      background_url: "src/img/banners/sunny.gif",
+      background_url: "src/img/banners/fbg-1.gif",
       categories: [
         {
           name: "Mío",
