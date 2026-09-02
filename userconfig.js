@@ -134,7 +134,7 @@ const default_config = {
     },
     {
       name: "Uni",
-      background_url: "src/img/banners/phainon.gif",
+      background_url: "src/img/banners/fbg-1.gif",
       categories: [
         {
           name: "Util",
@@ -176,17 +176,22 @@ const default_config = {
             },
 
             {
-              name: "Google Classroom",
-              url: "https://classroom.google.com/?pli=1",
+              name: "Classroom",
+              url: "https://classroom.google.com/u/1/h/st",
               icon: "school",
               icon_color: "#eab308",
             },
-
             {
-              name: "Drive",
-              url: "https://drive.google.com/drive/u/1/home",
-              icon: "brand-google-drive",
-              icon_color: "#ffa348",
+              name: "Horario",
+              url: "/schedule.html",  // Add this line
+              icon: "calendar",
+              icon_color: "#eab308",
+            },
+            {
+              name: "Datacamp",
+              url: "https://www.datacamp.com/",
+              icon: "brand-python",
+              icon_color: "#059669",
             },
           ],
         },
@@ -206,10 +211,10 @@ const default_config = {
               icon_color: "#8abeb7",
             },
             {
-              name: "Datacamp",
-              url: "https://www.datacamp.com/",
-              icon: "brand-python",
-              icon_color: "#059669",
+              name: "NotebookLM",
+              url: "https://notebooklm.google.com/?authuser=2",
+              icon: "notes",
+              icon_color: "#b1bbd8ff",
             },
             {
               name: "Google Books",
@@ -218,16 +223,10 @@ const default_config = {
               icon_color: "#ea6962",
             },
             {
-              name: "NotebookLM",
-              url: "https://notebooklm.google.com/?authuser=2",
-              icon: "notes",
-              icon_color: "#b1bbd8ff",
-            },
-            {
-              name: "Mi Horario",
-              url: "/schedule.html",  // Add this line
-              icon: "calendar",
-              icon_color: "#eab308",
+              name: "Moodle Lógica Comp",
+              url: "https://moodle.fciencias.unam.mx/cursos/course/view.php?id=2828#section-6",
+              icon: "backpack",
+              icon_color: "#8abeb7",
             },
           ],
         },
@@ -235,7 +234,7 @@ const default_config = {
     },
     {
       name: "Code",
-      background_url: "src/img/banners/sw.gif",
+      background_url: "src/img/banners/sw1.gif",
       categories: [
         {
           name: "Dev",
@@ -319,13 +318,19 @@ const default_config = {
       background_url: "src/img/banners/sunny.gif",
       categories: [
         {
-          name: "Mensajería",
+          name: "Mío",
           links: [
             {
               name: "Gmail",
-              url: "https://mail.google.com/mail/u/0/#inbox",
+              url: "https://mail.google.com/mail/u/1/#inbox",
               icon: "brand-gmail",
               icon_color: "#ea6962",
+            },
+            {
+              name: "Drive",
+              url: "https://drive.google.com/drive/u/1/home",
+              icon: "brand-google-drive",
+              icon_color: "#ffa348",
             },
             {
               name: "Whatsapp",

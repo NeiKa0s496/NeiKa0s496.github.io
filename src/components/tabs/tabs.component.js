@@ -280,10 +280,25 @@ class Tabs extends Component {
 
       
       /* color de las lineas que dividen categorias*/
+            .categories .links li {
+          list-style: none;
+      }
+
+      /* Línea divisoria más corta */
       .categories .links li:not(:last-child) {
-          box-shadow: 0 1px 0 rgb(229, 194, 161);
-          padding: 0 0 .5em 0;
+          position: relative;
+          padding: 0 0 .2em 0;
           margin-bottom: 1.5em;
+      }
+
+      .categories .links li:not(:last-child)::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 94%;  /* porcentaje ancho*/
+          height: 1.5px;
+          background: rgb(229, 194, 161);
       }
 
       /* titulos de las categorias*/
